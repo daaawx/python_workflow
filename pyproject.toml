@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "python_workflow"
+name = "random_quote_generator918243"
 version = "0.1.0"
 description = ""
 authors = ["Dax <daaawx@gmail.com>"]
+packages = [
+    { include = "random_quote_generator" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -19,3 +22,4 @@ safety = "^1.10.3"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
